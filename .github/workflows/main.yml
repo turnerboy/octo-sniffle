@@ -2,7 +2,7 @@ name: Generate Pocast Feeds
 on: [push]
 jobs:
   build:
-    run-one ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
