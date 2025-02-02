@@ -1,0 +1,26 @@
+name: Generate Pocast Feeds
+on: [push]
+jobs:
+  build:
+    run-one ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      - name: setup Python
+        uses: actions/step-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+      - name: Run feed Generator
+        run: python feed.py
+      - name: Push Repo
+        run: |
+          git config user.name turnerboy
+          git config user.email sri.turner98@gmail.com
+          git add .
+          git commit -m "Modified feed"
+          git push
+          
