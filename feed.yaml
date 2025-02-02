@@ -1,14 +1,15 @@
 title: The Future in Cloud
 subtitle: Powered by LinkedIn Learning
-author: Ray Villalobos
+author: Sriganesh Kaniarasu
 description: Conversations with leaders building next generation techology tools.
-image: /images/artwork.jpg
+image: https://avatars.githubusercontent.com/u/22258902?s=400&u=54b09975f93228bbd0f325ddf719554a4a0d7e69&v=4
 language: en-us
 category: Technology
 format: audio/mpeg
+link: https://sriganeshk.com/octo-sniffle/
 item:
   - title: EP01-What's Happening in 2023
-    description: Ray Villalobos and Content Managers Natalie Pao and Simon St. Laurent discuss what 2023 holds for the future in technology.
+    description: Sriganesh and Content Managers Natalie Pao and Simon St. Laurent discuss what 2023 holds for the future in technology.
     published: Thu, 12 Jan 2023 18:00:00 GMT
     file: /audio/TFIT01.mp3
     duration: 00:00:36
